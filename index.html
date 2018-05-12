@@ -1,3 +1,32 @@
+
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+
+<body>
+
 <div style="text-align:center"><font size="3"><span style="font-family:timesnewroman,serif"><font size="6">Welcome
 							   to Vivek
 							   Kale's Homepage.</font><br>
@@ -75,8 +104,9 @@
 <div></div>
 <div></div>
 </div>
-
 </div>
+
+
 
 <div class="column">
 
@@ -284,3 +314,6 @@ Hybrid Approach to Parallel Programming with MPI Plus Shared
 
 
 </div>
+
+</body>
+</html>
