@@ -8,7 +8,7 @@
   
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="alternate" type="application/rss+xml"  href="{{ site.url }}/feed.xml" title="{{ site.title }}">
+    <link rel="alternate" type="application/rss+xml"  href="http://localhost:4000/feed.xml" title="Vivek Kale's Page">
 <style>
 * {
     box-sizing: border-box;
@@ -33,7 +33,7 @@
 </head>
 <title> Vivek Kale's Homepage </title>
 
-<title>{{ page.title }} | {{ site.title }}</title>
+<title>About | Vivek Kale's Page</title>
     
 <body>
 
@@ -55,12 +55,21 @@
 	   target="_blank">twitter</a>]</font></div>
 
 <ul>
-    {% for link in site.data.navigation %}
-    <a href="{{ link.url }}">[{{ link.title }}]</a>
-    {% endfor %}
+    
+    <a href="https://sites.google.com/site/vivek112/home/honors/">[Honors]</a>
+    
+    <a href="https://sites.google.com/site/vivek112/courses/">[Courses]</a>
+    
+    <a href="https://sites.google.com/site/vivek112/mywork/">[Research]</a>
+    
+    <a href="https://sites.google.com/site/vivek112/software/">[Software]</a>
+    
+    <a href="https://sites.google.com/site/vivek112/home/viveksfiles/">[Curriculum Vitae]</a>
+    
 </ul>
 
-{% include sidebar.html %}
+My Sidebar
+
 
 <div></div>
 <div></div>

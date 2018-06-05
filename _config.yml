@@ -1,0 +1,9 @@
+name: My Jekyll Website
+url: https://vivek224.github.io
+title: Vivek Kale's Page
+
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
