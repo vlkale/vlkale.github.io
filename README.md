@@ -2,9 +2,8 @@
 # Description 
 # vivek224.github.io
 Vivek's webpage.
-Hello.
 
-NOTE: The webpage is under development. Expected to be done by mid- to late June 2017. See vivek112.googlepages.com for the googlepages version of the homepage.
+NOTE: The webpage is under construction. Expected to be done by late September 2018. See vivek112.googlepages.com for the googlepages version of the homepage.
 
 
 --- 
