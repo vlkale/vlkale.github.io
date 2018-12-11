@@ -1,3 +1,2 @@
 # vivek224.github.io
-My website.
-Hello.
+This repository is for my homepage.
