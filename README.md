@@ -1,5 +1,5 @@
 # Description
-This is the git repository for Vivek Kale's home page. The link to Vivek Kale's homepage is vlkale.github.io. The webpage is updated about once every month. 
+This is the git repository for Vivek Kale's home page. The link to Vivek Kale's homepage is vlkale.github.io. The webpage is updated about once every quarter of a year.
 
 # Associated Google Webpage
 You can see vivek.lkale.googlepages.com for the googlepages version of the homepage, which is updated less frequently, specifically, once every three months. The homepage  tries to stay consistent with this homepage. 
