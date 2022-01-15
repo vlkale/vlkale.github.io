@@ -14,6 +14,24 @@
     box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 40%
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
 /* Create two equal columns that floats next to each other */
 .column {
     float: left;
@@ -117,7 +135,24 @@
 
 <div></div>
 <div></div>
+ <div class="container">
+      <div class="image">
+        <img src="./vivek.jpg">
+      </div>
+      <div class="text">
+I am a Computer Scientist at Brookhaven National Laboratory working on improving the performance of scientific codes that run on supercomputers with nodes having heterogeneous sets of processors. 
 
+
+I completed my PhD in 2015, working under the supervision of Professor William D. Gropp and working with and holding positions with United States Department of Energy laboratories, particularly at Lawrence Livermore National Laboratory.
+Since earning my doctorate, I continued research on combining work on loop scheduling and inter-node load balancing, making loop scheduling and load balancing work synergistically together to improve performance of scientific and engineering simulations run on supercomputers. 
+
+	
+At Brookhaven National Laboratory, I am pursuing research on loop scheduling and tasking strategies for high-performance computing applications and support for developing strategies in LLVM's OpenMP, particularly strategies involving load balancing across heterogenous nodes and on runtime system interoperability of MPI and OpenMP. I work on the DOE’s Exascale Computing Project subproject for OpenMP, Scaling OpenMP with LLVM for Exascale performance and portability, or SOLLVE. Finally, I actively work with doctoral students at Stony Brook University on OpenMP tasking, unified virtual memory, and OpenShmem.
+I examine performance optimizations that include techniques of auto-tuning and loop scheduling for Lattice Quantum Chromodynamics simulations intended to run on supercomputers featuring nodes with GPUs and/or MICs.
+
+        <h1>Paris is one of the most beautiful cities in France.</h1>
+      </div>
+    </div>
 
 <div style="display:block;text-align:center;margin-right:auto;margin-left:auto">
 <div><font face="times new roman, serif"
