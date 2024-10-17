@@ -1,10 +1,36 @@
 name: My Jekyll Website
-url: https://vivek224.github.io
-title: Vivek Kale's Page
+title: Vivek Kale's Website
+description: >- # 
+  This is Vivek Kale's Website
+baseurl: ""
+url: "https://vlkale.github.io"
+github_username:  vlkale
+repository: vlkale/ViveksCV
+
+# Build settings
+markdown: kramdown
+# theme: minima
+theme: jekyll-theme-minimal
+show_excerpts: true
 
 kramdown:
  input: GFM
  auto_ids: true
  hard_wrap: false
  syntax_highlighter: rouge
-theme: jekyll-theme-minimal
+
+plugins:
+ # Automatically added by GitHub pages, as by https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages-and-jekyll
+ - jekyll-default-layout
+ - jekyll-optional-front-matter
+ - jekyll-titles-from-headings
+ - jekyll-github-metadata
+ - jekyll-relative-links
+ 
+ # Additional plugins; supported plugins: https://pages.github.com/versions/
+ - jekyll-feed
+ - jekyll-sitemap
+ - jekyll-avatar
+
+titles_from_headings:
+  enabled:     false
