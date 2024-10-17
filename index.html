@@ -156,14 +156,15 @@ img {
       </div>
       <div class="text">
 	      
-I am a Principal Member of Technical Staff at <a href="https://www.sandia.gov">Sandia National Laboratories </a> - California. I primarily work on research and development for <a href="https://en.wikipedia.org/wiki/High-performance_computing">HPC</a> Software Technology. This HPC Software Technology enable Scientific Software relevant to the U.S. Department of Energy run well on supercomputing platforms having nodes with heterogenous devices, including GPUs. I am also interested in AI/ML for automated performance tuning and automated testing in HPC (including modern generative AI techniques), AI/ML-guided Scientific Software and hybrid supercomputer-cloud platforms.
-Key topics in my work are <a href="kokkos.github.io">Kokkos</a>, C++ Parallel STL, C++ Executors, <a href="https://openmp.org">OpenMP</a>, MPI, loop scheduling and loop transformations, <a href ="http://www.llvm.org">LLVM</a>, adaptive runtime systems, tools for profiling and debugging, and performance modeling. 
-	
+I am a Principal Member of Technical Staff at <a href="https://www.sandia.gov">Sandia National Laboratories </a> - California. I primarily work on research and development for <a href="https://en.wikipedia.org/wiki/High-performance_computing">HPC</a> Software Technology. This HPC Software Technology enables Scientific Software relevant to the U.S. Department of Energy to run efficiently on supercomputing platforms having nodes with heterogenous devices, including GPUs. I am also interested in AI/ML for automated performance tuning and automated testing in HPC (including modern generative AI techniques), AI/ML-guided Scientific Software and hybrid supercomputer-cloud platforms.
+Additionally, my work can be used to optimize AI/ML workloads on modern data center platforms having GPUs. Key topics in my work are <a href="kokkos.github.io">Kokkos</a>, C++ Parallel STL, C++ Executors, <a href="https://openmp.org">OpenMP</a>, MPI, loop scheduling and loop transformations, <a href ="http://www.llvm.org">LLVM</a>, adaptive runtime systems, tools for profiling and debugging, and performance modeling. 
+	      
 I completed my PhD in 2015 from the University of Illinois at Urbana-Champaign, working under the supervision of Professor <a href="https://en.wikipedia.org/wiki/Bill_Gropp"> William (Bill) Gropp</a>. During this time, I also worked with and held positions with the U.S. Department of Energy laboratories, particularly at <a href="https://www.llnl.gov">Lawrence Livermore National Laboratory</a> and <a href="https://www.anl.gov">Argonne National Laboratory</a>.
 Since earning my doctorate, I continued research on combining work on loop scheduling and inter-node load balancing, making loop scheduling and load balancing work synergistically together to improve performance of scientific and engineering simulations run on supercomputers. 
 
 In my previous role, which was at Brookhaven National Laboratory, I pursued research on loop scheduling and tasking strategies for high-performance computing applications and support for developing strategies in OpenMP, as well as examining performance optimizations that include techniques of auto-tuning and loop scheduling for Lattice Quantum Chromodynamics simulations intended to run on supercomputers featuring nodes with GPUs and/or MICs.
-I worked for <a href="https://energy.gov">United States Department of Energy's </a>  <a href="https://exascaleproject.org">Exascale Computing Project</a> subproject, Scaling OpenMP with LLVM for Exascale performance and portability, or <a href="https://sollve.github.io">SOLLVE</a>. Finally, I actively worked with doctoral students at Stony Brook University on OpenMP tasking, unified virtual memory, and OpenShmem.
+I worked for <a href="https://energy.gov">United States Department of Energy's </a>  <a href="https://exascaleproject.org">Exascale Computing Project</a> subproject, Scaling OpenMP with LLVM for Exascale performance and portability, or <a href="https://sollve.github.io">SOLLVE</a>. Finally, I actively worked with doctoral students at Stony Brook University on OpenMP tasking, unified virtual memory, and OpenShmem. 
+An important part of my work at BNL was development of multi-GPU programming capabilities in LLVM's OpenMP, including mechanisms for maintaining data locality when scheduling computation and data to multiple GPUs. This is increasingly important for scaling HPC applications involving AI/ML, bioinformatics, drug discovery on multi-GPU platforms such as NVIDIA's DGX. 
       </div>
     </div>
 
@@ -189,13 +190,25 @@ I worked for <a href="https://energy.gov">United States Department of Energy's <
 <div><b style="font-family:times new
 	       roman,serif;font-size:large"><u>Representative Publications:</u></b></div>
 	
+
+	<div><span style="font-family:times new
+		  roman,serif"><font size="2"><font size="3"> Vivek Kale, Hanru Yan, Shyamali Mukherjee, Jackson Mayo, Keita Teranishi, Richard Rutledge and Alessandro Orso.
+	          <b><i> Toward Automated Detection of Portability Bugs in Kokkos Parallel Programs </i></b>&nbsp;</font></font></span><span style="font-family:times
+		  new roman,serif;font-size:medium"> 8th International Workshop on Software Correctness for HPC Applications, SC24. November 18, 2024. &nbsp;</span><i style="font-family:times new
+		  roman,serif;font-size:medium"><span style="color:rgb(255,0,0)">&nbsp;</span></i><b style="font-family:times
+		  new roman,serif;font-size:medium">[<a href="sc24.supercomputing.org"
+		  target="_blank"> [PDF] </a>]<a href="/"></a></b></div>
+<div><span style="font-family:times new
+		  roman,serif"><font size="2"><font size="3"><br>
+</font></font></span></div> 
+	
 	<div><span style="font-family:times new
 		  roman,serif"><font size="2"><font size="3"> Mathialakan Thavappiragasasm and Vivek Kale.
 	          <b><i> CPU-GPU Performance Tuning for Improving Performance of Modern Scientific Applications on Exascale Supercomputers. </i></b>&nbsp;</font></font></span><span style="font-family:times
 		  new roman,serif;font-size:medium"> IEEE's International Conference on High-Performance Computing (HiPC) 2023. Goa, India. December 18-21, 2023. &nbsp;</span><i style="font-family:times new
 		  roman,serif;font-size:medium"><span style="color:rgb(255,0,0)">&nbsp;</span></i><b style="font-family:times
 		  new roman,serif;font-size:medium">[<a href="https://hipc.org/advance-program-2023"
-		  target="_blank"> (To Appear) </a>]<a href="/"></a></b></div>
+		  target="_blank"> [PDF] </a>]<a href="/"></a></b></div>
 <div><span style="font-family:times new
 		  roman,serif"><font size="2"><font size="3"><br>
 </font></font></span></div>
@@ -205,7 +218,7 @@ I worked for <a href="https://energy.gov">United States Department of Energy's <
 	          <b><i> Performance Analysis and Auto-tuning Tools for Performance Portable Parallel Programs. </i></b>&nbsp;</font></font></span><span style="font-family:times
 		  new roman,serif;font-size:medium"> 2023 ACM/IEEE International Conference for High Performance Computing Networking, Storage, and Analysis. Denver, CO, USA. November 12-17, 2023. &nbsp;</span><i style="font-family:times new
 		  roman,serif;font-size:medium"><span style="color:rgb(255,0,0)">&nbsp;</span></i><b style="font-family:times
-		  new roman,serif;font-size:medium">[<a href="https://hipc.org/advance-program-2023"
+		  new roman,serif;font-size:medium">[<a href="https:/sc23.supercomputing.org"
 		  target="_blank"> (To Appear) </a>]<a href="/"></a></b></div>
 <div><span style="font-family:times new
 		  roman,serif"><font size="2"><font size="3"><br>
@@ -456,7 +469,7 @@ Gropp,&nbsp;</span><span style="line-height:1.4;font-family:CMBX10">Vivek
 	
 	<span style="font-weight:bold;font-size:10pt;line-height:1.4">This
 	  page was last updated
-	  on&nbsp;<i>January</i></span><i style="font-weight:bold;font-size:10pt;line-height:1.4">&nbsp; 10<sup></sup>,
+	  on&nbsp;<i>October</i></span><i style="font-weight:bold;font-size:10pt;line-height:1.4">&nbsp; 17<sup></sup>,
 	  2024.</i></p>
 <div></div>
 </div>
