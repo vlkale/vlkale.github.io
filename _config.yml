@@ -9,8 +9,8 @@ repository: vlkale/ViveksCV
 
 # Build settings
 markdown: kramdown
-# theme: minima
-theme: jekyll-theme-minimal
+theme: minima
+# theme: jekyll-theme-minimal
 show_excerpts: true
 
 kramdown:
